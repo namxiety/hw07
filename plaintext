@@ -1,0 +1,13 @@
+
+## 一键运行命令
+### 本地运行
+```bash
+# 1. 创建环境
+conda create -n hw07 python=3.10
+conda activate hw07
+# 2. 安装依赖
+pip install -r requirements.txt
+# 3. 运行训练
+python train.py
+# 或运行jupyter notebook
+jupyter notebook train.ipynb
